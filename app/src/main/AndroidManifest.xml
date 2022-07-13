@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cambridge.sizlers">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mainlog"
+        android:label="Brain Sizlers"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="cambridge.sizlers.SpalshScreen"
+            android:label="Brain Sizlers">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cambridge.sizlers.LoginActivity"
+            android:label="Brain Sizlers"></activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".screenshot.Main"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="cambridge.sizlers.QuizActivity"
+            android:parentActivityName="cambridge.sizlers.LoginActivity">
+
+        </activity>
+        <activity
+            android:name="cambridge.sizlers.MainActivity"
+            android:parentActivityName="cambridge.sizlers.LoginActivity">
+
+        </activity>
+        <activity
+            android:name="cambridge.sizlers.menu.about"
+            android:parentActivityName="cambridge.sizlers.menu.about"></activity>
+        <activity
+            android:name="cambridge.sizlers.menu.contact"
+            android:parentActivityName="cambridge.sizlers.LoginActivity"></activity>
+    </application>
+
+</manifest>

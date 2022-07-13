@@ -1,0 +1,94 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:menu="@menu/data_menu"
+    android:background="@color/black"
+    tools:context=".screenshot.Main">
+
+    <include layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Results"
+
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="75dp"
+        android:drawableLeft="@drawable/shot" />
+
+
+
+
+    <lecho.lib.hellocharts.view.PieChartView
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:layout_marginTop="200dp" />
+
+    <TextView
+        android:id="@+id/tv_response1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:text=""/>
+
+
+    <Button
+        android:id="@+id/restart"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="-600dp"
+        android:background="@drawable/buttonshape2"
+        android:textColor="@color/white"
+        android:text="Restart"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="423dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Your Score"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="580dp"
+        android:text="True"
+        android:textColor="@color/green"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:textColor="@color/red"
+        android:layout_marginTop="580dp"
+        android:textSize="20dp"
+        android:text="False" />
+</android.support.design.widget.CoordinatorLayout>
+
