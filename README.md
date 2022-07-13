@@ -27,16 +27,5 @@ System Requirement Specification
 User Requirement Specification
        User requirement specifications describes the relation between the inputs and the outputs of the system .For the each requirement of the user, a detailed description of all the data and their source, the units of measure and the range of valid must be specified .This phase deals with requirement of the user for this system. the user is wiling to participate in conferencing; the system also requires user-friendly interfacing.
 
-Brief overview of the technology:-
 
-Front end: HTML, CSS, JavaScript
-1.	HTML: HTML is used to create and save web document. 
-2.	CSS : (Cascading Style Sheets) Create attractive Layout
-3.	JavaScript: it is a programming language, commonly use with web browsers.
-
-Back end: PHP, MySQL
-1.	PHP: Hypertext Preprocessor (PHP) is a technology that allows software developers to create dynamically generated web pages, in HTML, XML, or other document types, as per client request. PHP is open source software.
-2.	MySQL: MySql is a database, widely used for accessing querying, updating, and managing data in databases.
-
-![bz](https://user-images.githubusercontent.com/35873736/178715699-e3a74738-d97d-4af6-8ac3-866f8354fc0f.png)
 
